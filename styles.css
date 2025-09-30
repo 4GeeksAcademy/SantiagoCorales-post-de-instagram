@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #000000b7;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.post {
+    width: 490px;
+    height: 100vh;
+    background-color: #ffffff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    font-family: "Noto Sans Marchen", sans-serif;
+}
+
+b{
+  cursor: pointer;  
+}
+
+/*------HEADER-------*/
+.post-header {
+    display: flex;
+    justify-content: space-between;
+   /* align-items: center; */
+    padding: 8px;
+    color: #000;
+}
+
+.post-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.icon-ellipsis-vertical i,
+.post-logo i {
+   /* display: flex; */
+    align-items: center;
+   /* height: 100%; */
+    font-size: 30px;
+    cursor:pointer ;
+}
+
+/*------IMAGEN-------*/
+.post-img {
+    flex: 1;
+    overflow: hidden;
+}
+
+.post-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*------BODY-------*/
+.post-body {
+    margin: 10px 8px 5px;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.save,
+.interaction{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 25px;
+    cursor: pointer;
+}
